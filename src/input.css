@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .mds-underline{
+        background: linear-gradient(0deg, #D3D62E 43%, transparent 40%);padding: 0 2px;
+    }
+}
+@layer base {
+    .mds-framed{
+        background: theme('colors.primary');
+        color: theme('colors.white');
+        display: inline-block;
+        padding: 0 0.5rem;
+    }
+}
